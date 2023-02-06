@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+
 import classNames from 'classnames/bind';
 import styles from './SuggestedAccounts.module.scss'
 import { CheckIcon } from '../Icons/Icons';
@@ -46,6 +46,5 @@ function AccountItem() {
      );
 }
 
-AccountItem.propTypes = {}
 
 export default AccountItem;

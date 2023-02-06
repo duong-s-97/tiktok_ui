@@ -1,6 +1,5 @@
 import classNames from "classnames/bind";
 import styles from './AccountPreview.module.scss';
-import PropTypes from 'prop-types';
 import Button from "../../Button";
 import { CheckIcon } from "../../Icons/Icons";
 
@@ -31,6 +30,5 @@ function AccountPreview() {
      );
 }
 
-AccountPreview.propTypes = {}
 
 export default AccountPreview;
